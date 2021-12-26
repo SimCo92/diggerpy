@@ -1,6 +1,5 @@
 
 class DiscogsOBJ:
-    
     def __init__(self, title, artist=None, album=None, genre=None, year=None, label=None, country=None):
         self.title = title
         self.artist = artist
@@ -12,7 +11,6 @@ class DiscogsOBJ:
 
 
 class Song(DiscogsOBJ):
-
     def __init__(self, title, artist=None, album=None):
         self.title = title
         self.artist = artist

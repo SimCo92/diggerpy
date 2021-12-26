@@ -1,18 +1,16 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='DiscogsAPI',
       version='0.1',
       description='to fill...',
-    #   url='http://github.com/storborg/funniest',
+    #   url='http://github.com/...',
       author='SimCo',
-    #   author_email='flyingcircus@example.com',
-      license='MIT',
-    #   packages=,
+      author_email='si.colonna92@gmail.com',
+      # package_dir={"": "src"},
+      packages=find_packages(),
       install_requires=[
           'pandas',
-          'discogs_client',
-          'time',
+          'oauth2',
           'requests',
-          'json',
       ],
       zip_safe=False)
