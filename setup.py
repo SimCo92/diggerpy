@@ -6,7 +6,7 @@ setup(name='DiscogsAPI',
     #   url='http://github.com/...',
       author='SimCo',
       author_email='si.colonna92@gmail.com',
-      # package_dir={"": "src"},
+      # package_dir={"": "discogsapi"},
       packages=find_packages(),
       install_requires=[
           'pandas',
