@@ -1,5 +1,5 @@
-# Example Package
+# DiscogsAPI
 
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+This is a simple DiscogsAPI client wrapped into a Python package.
+
+Reference: https://www.discogs.com/developers
