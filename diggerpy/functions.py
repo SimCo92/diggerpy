@@ -1,7 +1,7 @@
 import urllib
 import json
 import sys
-from DiscogsAPI.client import get_client, user_agent
+from DiggerPy.client import get_client, user_agent
 
 def get_search(search_obj, access_token=None):
     """
