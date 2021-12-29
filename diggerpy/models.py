@@ -5,7 +5,9 @@ class SearchItem:
     """
     Item returned from get_search()
     """
-    def __init__(self, country, year, format, label, type, genre, style, id, barcode, user_data, master_id, master_url, uri, catno, title, thumb=None, cover_image=None, resource_url=None, community=None, format_quantity=None, formats=None):
+    def __init__(self, country, year, format, label, type, genre, style, id, barcode, user_data, master_id, master_url,
+                 uri, catno, title, thumb=None, cover_image=None, resource_url=None,community=None,
+                 format_quantity=None, formats=None):
         self.country = country
         self.year = year
         self.format = format
@@ -57,7 +59,9 @@ class Master:
     """
     Master release model
     """
-    def __init__(self, id, main_release, most_recent_release, resource_url, uri, versions_url, main_release_url, most_recent_release_url, num_for_sale, lowest_price, images, genres, styles, year, tracklist, artists, title, notes=None, data_quality=None, videos=None):
+    def __init__(self, id, main_release, most_recent_release, resource_url, uri, versions_url, main_release_url,
+                 most_recent_release_url, num_for_sale, lowest_price, images, genres, styles, year, tracklist, artists,
+                 title, notes=None, data_quality=None, videos=None):
         self.id = id
         self.main_release = main_release
         self.most_recent_release = most_recent_release
@@ -101,7 +105,6 @@ class Master:
                 data_quality = {self.data_quality},
                 videos = {self.videos}
                 """
-
 
 
 
