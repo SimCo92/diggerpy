@@ -1,7 +1,7 @@
 import urllib
 import json
 import sys
-from DiggerPy.client import get_client, user_agent
+from diggerpy.client import get_client, user_agent
 
 def get_search(search_obj, access_token=None):
     """
@@ -19,7 +19,7 @@ def get_search(search_obj, access_token=None):
     return json_content
 
 
-def get_search_v2(search_obj, access_token=None):
+def get_master(search_obj, access_token=None):
     """
     Take an search_obj as input
     Similar to get_search() but it takes the first result and returns the master release infos
