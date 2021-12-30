@@ -106,6 +106,10 @@ class Master:
                 videos = {self.videos}
                 """
 
+    def get_tracklist(self):
+         return [d['title'] for d in self.tracklist]
 
+    def get_videos(self):
+        return [{'title': d['title'], 'video': d['uri']} for d in self.videos]
 
 
