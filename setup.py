@@ -9,7 +9,8 @@ setup(name='DiggerPy',
       # package_dir={"": "diggerpy"},
       packages=find_packages(),
       install_requires=[
-          'pandas',
+          # 'pandas',
+          'json'
           'oauth2',
           'requests',
       ],
