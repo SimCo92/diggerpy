@@ -34,3 +34,6 @@ var/
 
 # Data
 .csv
+
+# Developer tools
+dev/
