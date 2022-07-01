@@ -1,0 +1,6 @@
+- id: diggerpy
+  name: diggerpy
+  description: A linter for your DiggerPy to ensure Best Practices are being used.
+  entry: diggerpy
+  language: python
+  types: [python]
