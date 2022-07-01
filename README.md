@@ -1,6 +1,6 @@
 # Diggerpy
 
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/simco/diggerpy/master.svg)](https://results.pre-commit.ci/latest/github/simco/diggerpy/master)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/SimCo92/DiggerPy/master.svg)](https://results.pre-commit.ci/latest/github/SimCo92/DiggerPy/master)
 ![codeql-analysis workflow](https://github.com/simco/diggerpy/actions/workflows/codeql-analysis.yaml/badge.svg)
 [![License](https://img.shields.io/pypi/l/airflint)](https://github.com/simco/diggerpy/blob/master/LICENSE)
 
