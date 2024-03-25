@@ -86,7 +86,8 @@ class Release:
         year (str): The release year.
         genres (list): A list of genres associated with the release.
         styles (list): A list of styles associated with the release.
-        tracklist (list): A list of track objects representing the release's tracklist."""
+        tracklist (list): A list of track objects representing the release's tracklist.
+    """
 
     def __init__(self, data):
         self.id = data["id"]
