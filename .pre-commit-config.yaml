@@ -9,7 +9,7 @@ repos:
     hooks:
       - id: check-hooks-apply
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.3.0
+    rev: v5.0.0
     hooks:
       - id: check-ast
       - id: check-builtin-literals
@@ -26,7 +26,7 @@ repos:
 #        additional_dependencies:
 #          - types-toml
   - repo: https://github.com/pre-commit/pygrep-hooks
-    rev: v1.9.0
+    rev: v1.10.0
     hooks:
       - id: python-check-blanket-noqa
       - id: python-check-blanket-type-ignore
@@ -35,23 +35,23 @@ repos:
       - id: python-no-log-warn
       - id: python-use-type-annotations
   - repo: https://github.com/asottile/add-trailing-comma
-    rev: v2.2.3
+    rev: v3.1.0
     hooks:
       - id: add-trailing-comma
   - repo: https://github.com/asottile/pyupgrade
-    rev: v2.34.0
+    rev: v3.18.0
     hooks:
       - id: pyupgrade
   - repo: https://github.com/asottile/yesqa
-    rev: v1.3.0
+    rev: v1.5.0
     hooks:
       - id: yesqa
   - repo: https://github.com/psf/black
-    rev: 22.3.0
+    rev: 24.10.0
     hooks:
       - id: black
   - repo: https://github.com/PyCQA/flake8
-    rev: 4.0.1
+    rev: 7.1.1
     hooks:
       - id: flake8
         args: ["--max-line-length", "88", "--extend-ignore", "E501"]
@@ -73,16 +73,16 @@ repos:
 #          - toml
 #        exclude: airflint/__main__.py|tests/
   - repo: https://github.com/pycqa/isort
-    rev: 5.12.0
+    rev: 5.13.2
     hooks:
       - id: isort
         args: ["--profile", "black"]
   - repo: https://github.com/crate-ci/typos
-    rev: v1.10.2
+    rev: v1.26.0
     hooks:
       - id: typos
   - repo: https://github.com/pycqa/autoflake
-    rev: v1.4
+    rev: v2.3.1
     hooks:
       - id: autoflake
         args: ["--remove-all-unused-imports", "--in-place"]
